@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(20deg, salmon, transparent), url(https://grainy-gradients.vercel.app/noise.svg);   
+    filter: contrast(175%) brightness(75%);
+    height:100vh;
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+    margin: 35px 0;
+    font-size: 1.5rem;
+    color: #333; 
+}
+.form-container{
+    max-width: 600px;
+    /* border:1px solid black; */
+    
+    display: flex;
+    justify-content: center;
+    gap : 5px;
+    margin: 20px auto;
+
+    #taskInput{
+    font-size: 1rem;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+}
+
+  #addTaskBtn{
+    font-size: 1rem;
+    padding: 8px; 
+    background : #333;
+    border-radius: 5px;
+    border: none;
+    color:white; 
+    cursor : pointer;
+  }
+}
+
+.filter-container{
+    max-width: 400px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    margin : 20px auto;
+    border-radius: 5px;
+    border : none;
+
+    .option-container{
+        font-size : 1rem;
+        width: 150px;
+        margin: 0px auto;
+    }
+}
+
+.task-container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+
+    gap: 10px;
+
+    li {
+        width: 100%;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        margin : 0 auto;
+        font-size: x-large;
+    }
+
+    li.completed{
+        text-decoration: line-through;
+        color: red;
+    }
+
+    li button {
+        font-size: 1rem;
+        padding: 8px;
+        border-radius: 8px;
+        border: none;
+        background: #333;
+        color : white;
+        cursor: pointer;  
+    }
+
+    .task{
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        justify-content: space-between;
+    }
+}
