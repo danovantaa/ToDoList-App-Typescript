@@ -1,0 +1,9 @@
+"filename", "language", "JSON", "JSON with Comments", "CSS", "HTML", "TypeScript", "JavaScript", "comment", "blank", "total"
+"c:\Users\Tarigan\OneDrive\Documents\PPLK 2024\typescript-project\dist\index.js", "JavaScript", 0, 0, 0, 0, 0, 76, 1, 0, 77
+"c:\Users\Tarigan\OneDrive\Documents\PPLK 2024\typescript-project\package-lock.json", "JSON", 45, 0, 0, 0, 0, 0, 0, 1, 46
+"c:\Users\Tarigan\OneDrive\Documents\PPLK 2024\typescript-project\package.json", "JSON", 16, 0, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\Tarigan\OneDrive\Documents\PPLK 2024\typescript-project\public\index.html", "HTML", 0, 0, 0, 28, 0, 0, 4, 9, 41
+"c:\Users\Tarigan\OneDrive\Documents\PPLK 2024\typescript-project\public\style.css", "CSS", 0, 0, 101, 0, 0, 0, 1, 14, 116
+"c:\Users\Tarigan\OneDrive\Documents\PPLK 2024\typescript-project\src\index.ts", "TypeScript", 0, 0, 0, 0, 76, 0, 0, 22, 98
+"c:\Users\Tarigan\OneDrive\Documents\PPLK 2024\typescript-project\tsconfig.json", "JSON with Comments", 0, 10, 0, 0, 0, 0, 0, 1, 11
+"Total", "-", 61, 10, 101, 28, 76, 76, 6, 50, 408

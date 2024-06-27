@@ -2,9 +2,9 @@
     "compilerOptions": {
         "module": "NodeNext",
         "moduleResolution": "NodeNext",
-        "target": "ESNext",
+        "target": "ES6",
         "sourceMap": true,
         "outDir": "dist",
     },
-    "include": ["src//*.ts"]
+    "include": ["src/**/*.ts"]
 }
